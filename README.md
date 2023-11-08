@@ -78,7 +78,7 @@ library("easyplotP")
 #>     matches
 
 data <- data.frame(A=c(0.4, 0.9, 1, 2, 7, 12, 44, 222), B=c(6, 8, 9, 10, 11, 18, 114, 1110))
-easyplot(data$A, data$B)
+easyplotP::easyplot(data$A, data$B)
 ```
 
 <img src="man/figures/README-example-1.png" width="100%" />
