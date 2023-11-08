@@ -1,0 +1,12 @@
+Package: easyplotP
+Title: Creating a simple scatterplot using "easyplotP"
+Version: 0.1.0
+Authors@R: 
+    person("Nicole", "Howes", , "nmhowes55@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package builds a simple scatter plot using a set of numerical variables labelled x and y, to help visualize their relationship. A blue scatter plot is generated using this function.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: tidyverse, ggplot2, datateachr, devtools, testthat
