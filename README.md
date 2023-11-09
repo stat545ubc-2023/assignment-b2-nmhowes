@@ -17,7 +17,7 @@ You can install the development version of easyplotP using:
 
 ``` r
 #install.packages("devtools")
-devtools::install_github("stat545ubc-2023/easyplotP", ref = "v0.1.0")
+devtools::install_github("stat545ubc-2023/easyplotP", ref = "v0.1.13")
 ```
 
 ## Example
