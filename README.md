@@ -17,7 +17,7 @@ You can install the development version of easyplotP using:
 
 ``` r
 #install.packages("devtools")
-devtools::install_github("stat545ubc-2023/easyplotP", ref = "0.1.0")
+devtools::install_github("stat545ubc-2023/easyplotP", ref = "v0.1.0")
 ```
 
 ## Example
@@ -48,35 +48,6 @@ library("tidyverse")
 #> ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
 library("ggplot2")
 library("easyplotP")
-#> Loading required package: datateachr
-#> Loading required package: devtools
-#> Warning: package 'devtools' was built under R version 4.2.3
-#> Loading required package: usethis
-#> Warning: package 'usethis' was built under R version 4.2.3
-#> Loading required package: testthat
-#> Warning: package 'testthat' was built under R version 4.2.3
-#> 
-#> Attaching package: 'testthat'
-#> 
-#> The following object is masked from 'package:devtools':
-#> 
-#>     test_file
-#> 
-#> The following object is masked from 'package:dplyr':
-#> 
-#>     matches
-#> 
-#> The following object is masked from 'package:purrr':
-#> 
-#>     is_null
-#> 
-#> The following objects are masked from 'package:readr':
-#> 
-#>     edition_get, local_edition
-#> 
-#> The following object is masked from 'package:tidyr':
-#> 
-#>     matches
 
 data <- data.frame(A=c(0.4, 0.9, 1, 2, 7, 12, 44, 222), B=c(6, 8, 9, 10, 11, 18, 114, 1110))
 easyplotP::easyplot(data$A, data$B)
