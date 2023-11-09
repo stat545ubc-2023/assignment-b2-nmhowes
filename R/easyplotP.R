@@ -16,8 +16,8 @@ easyplot <- function(x, y) {
   if(!is.numeric(xnum)) {
     stop('please input a numeric variable')
   }
-    ggplot2::ggplot(mapping = aes(x, y)) +
-    geom_point(size = 0.8, alpha = 0.5, color = "blue")
+    ggplot2::ggplot(mapping = ggplot2::aes(x, y)) +
+    ggplot2::geom_point(size = 0.8, alpha = 0.5, color = "blue")
 }
 
 
